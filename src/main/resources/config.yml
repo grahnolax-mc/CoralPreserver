@@ -1,0 +1,17 @@
+preserve:
+  # Prevent living coral from fading into dead coral outside water.
+  enabled: true
+
+drying:
+  # Allow players to intentionally turn living coral into its dead variant.
+  enabled: true
+  # Require the player to sneak while right-clicking the coral.
+  require-sneak: true
+  # Any valid Bukkit material name can be used.
+  tool: "SPONGE"
+  # Creative-mode players never consume the tool.
+  consume-tool: false
+  play-sound: true
+  # Any valid Bukkit sound name can be used.
+  sound: "BLOCK_SPONGE_ABSORB"
+  show-particles: true

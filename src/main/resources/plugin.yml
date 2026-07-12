@@ -1,0 +1,17 @@
+name: CoralPreserver
+version: 1.0.0
+main: com.outofmana.coralpreserver.CoralPreserverPlugin
+api-version: '1.21.8'
+author: Grahnolax
+description: Keeps living coral alive outside water while allowing intentional drying.
+
+commands:
+  coralpreserver:
+    description: CoralPreserver administration command.
+    usage: /<command> reload
+    permission: coralpreserver.reload
+
+permissions:
+  coralpreserver.reload:
+    description: Allows reloading the CoralPreserver configuration.
+    default: op
