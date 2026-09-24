@@ -14,10 +14,15 @@ CoralPreserver is a lightweight Paper plugin that prevents living coral from aut
 - Optional tool consumption, sound, particles, and sneak requirement.
 - No NMS and no runtime dependencies.
 
-## Requirements
+## Compatibility
 
-- Paper 1.21.8 or newer, including 26.2
+- Paper 1.21.8 or newer, tested through Paper 26.3
 - Java 21 or newer (Java 25 is required by Paper 26.1+)
+
+CoralPreserver is compiled against Paper 1.21.8 to preserve its minimum supported
+version. Its source also compiles successfully against the Paper 26.3 API without
+changes. The same CoralPreserver 1.0.0 JAR can therefore be used across these
+versions; no separate build is required for Paper 26.3.
 
 This plugin is server-side only. Players do not need to install anything.
 
